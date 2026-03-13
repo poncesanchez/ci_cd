@@ -65,3 +65,4 @@ pipeline {
 - Añadir ejecución de test
 - Añadir verificación de dependencias
 *** Corregir los defectos hasta obtener un despliegue exitoso.
+Cambio

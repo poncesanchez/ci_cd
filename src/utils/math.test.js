@@ -7,6 +7,6 @@ describe("math", () => {
   });
 
   it("resta dos números", () => {
-    expect(subtract(5, 3)).toBe(1);
+    expect(subtract(5, 3)).toBe(2);
   });
 });

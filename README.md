@@ -37,7 +37,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git branch: 'master', url: 'URL_REPOSITORIO_GIT'
+        git branch: 'master', url: 'https://github.com/poncesanchez/ci_cd'
       }
     }
 

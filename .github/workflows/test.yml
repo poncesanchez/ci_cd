@@ -1,0 +1,14 @@
+name: Test
+
+on: 
+  workflow_dispatch:
+
+jobs:
+  example_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say Hello
+        run: echo "Hello, ${{ secrets.NAME_SECRET }}!"
+
+      - name: Say Hello with Input
+        run: echo "Hello, ${{ vars.NAME_VARS }}!"
